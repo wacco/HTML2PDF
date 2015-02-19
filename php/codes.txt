@@ -1,0 +1,12 @@
+900 - URL is invalid
+901 - HTML string can not be empty
+902 - Filename does not exist
+903 - File can not be empty
+
+910 - Wrong api key
+911 - Wrong data parameter
+913 - Wrong parameters
+914 - Not found API user
+
+920 - Not possible to save PDF file
+921 - Not possible to display PDF file
