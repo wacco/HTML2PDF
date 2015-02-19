@@ -260,7 +260,7 @@ class Api {
 				return true;
 			} else {
 				throw new Exception('HTTP error: ' . $httpcode, $httpcode);
-        	}
-        }
+			}
+		}
 	}
 }
