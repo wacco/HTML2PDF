@@ -6,12 +6,14 @@ class Exception extends \Exception {}
 
 class Api {
 
-	private $apikey, $version = '1.0', $filename = 'MyPDF.pdf', $tempfile = null, $options = array();
+	private $apikey = '7hexg2p0nuzpw3yv', $version = '1.0', $filename = 'MyPDF.pdf', $tempfile = null, $options = array();
 	private $timeout = 20;
 	private $service = 'http://html2pdf.tools/api';
 	
-	public function __construct($apikey) {
-		$this->apikey = $apikey;
+	public function __construct($apikey = null) {
+		if ($apikey) {
+			$this->apikey = $apikey;
+		}
 	}
 	
 	public function setTimeOut($seconds) {
